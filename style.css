@@ -91,6 +91,7 @@ h2 {
 .horz-container {
     display: flex;
     padding: 0 100px;
+    justify-content: space-between;
 }
 
 .item {
@@ -98,6 +99,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100px;
 }
 
 .item p {
