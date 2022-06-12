@@ -1,0 +1,29 @@
+* {
+    list-style-type: none;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5e7eb;
+}
