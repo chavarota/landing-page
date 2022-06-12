@@ -1,9 +1,8 @@
 * {
     list-style-type: none;
+    text-decoration: none;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-body {
+    padding: 0;
     margin: 0;
 }
 
@@ -13,7 +12,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0 100px;
+    padding: 20px 100px;
 }
 
 .logo {
@@ -24,6 +23,109 @@ body {
 .header ul {
     display: flex;
     gap: 20px;
+}
+
+.header a {
     font-size: 18px;
     color: #E5e7eb;
+}
+
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px 100px;
+    gap: 20px;
+}
+
+.vertical-container,
+.img-placeholder {
+    flex-basis: 0;
+    flex: 1 1 0px;
+}
+
+.img-placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    min-width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.section-1 p {
+    font-size: 18px;
+    color: #E5e7eb;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.horz-container {
+    display: flex;
+    padding: 0 100px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item p {
+    text-align: center;
+    color: #1f2937;
+    margin: 15px 0;
+}
+
+.img-placeholder-2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    border: 3px solid #3882f6;
+    background-color: #f9faf8;
+}
+
+.section-2 {
+    padding-bottom: 30px;
+}
+
+.section-3 {
+    background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 250px;
+    gap: 10px;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.section-3 p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
 }
