@@ -6,13 +6,21 @@
     margin: 0;
 }
 
-.header {
+.header,
+.footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 20px 100px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .logo {
@@ -128,4 +136,31 @@ h3 {
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+}
+
+.section-4 {
+    padding: 30px 100px;
+}
+
+.prompt-box {
+    border-radius: 7px;
+    background-color: #3882f6;
+    padding: 20px 60px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.section-4 * {
+    color: #f9faf8;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-4 button {
+    border: 2px solid #E5e7eb;
+    height: 40px;
 }
